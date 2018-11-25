@@ -1,0 +1,21 @@
+		
+		C Polarity		C phase
+		=========		========
+
+Mode 0		0			0
+Mode 1		0			1
+Mode 2		1			0
+Mode 3		1			1
+
+
+
+		Leading Edge 		Trailing Egde
+		============		=============
+
+Cphase 0	data validate		data change
+
+Cphase 1	data change		data validate
+
+
+* polarity means clock, clock starts based on polarity, that means if polarity is high, clock starts with high.
+
